@@ -11,7 +11,7 @@ function Home() {
           title="Welcome to BadBank"
           text="We purchased our Security Software Second Hand from Target."
           body={
-            <img src="safe.jpg" className="img-fluid" alt="Logo" />
+            <img src="/img/safe.jpg" className="img-fluid" alt="Logo" />
           }
         />
       </div>

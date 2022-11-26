@@ -1,8 +1,6 @@
 import React from "react";
 import Card from "./Card";
 import RowTable from "./RowTable";
-import { Transaction } from './dated-transactions';
-import '../css/alldata.css';
 import '../css/styles.css';
 
 import { UserContext } from "./context";
@@ -23,6 +21,7 @@ function AllData() {
                   <th className="brand-table-th">Name</th>
                   <th className="brand-table-th">Email</th>
                   <th className="brand-table-th">Password</th>
+                  <th className="brand-table-th">Transaction</th>
                   <th className="brand-table-th">Balance</th>
 
                 </tr>

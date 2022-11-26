@@ -1,4 +1,6 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 import { MenuItems } from "./MenuItems";
 
 function NavBar() {
@@ -25,8 +27,18 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="p-3">
-        <img src="safe.jpg" alt="BadBank" width="65px" />
-        
+        <Container>
+          <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src="/img/safe.jpg"
+              width="45"
+              height="45"
+              className="d-inline-block align-top"
+            />{' '}
+                Bad Bank Of America
+          </Navbar.Brand>
+        </Container>
       </div>
       <button
         className="navbar-toggler"
