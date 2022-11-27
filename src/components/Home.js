@@ -8,7 +8,7 @@ function Home() {
           maxWidth="26rem"
           txtcolor="black"
           header="Bad Bank of North America"
-          title="Welcome to BadBank - North AAmerica"
+          title="Welcome to BadBank"
           text="We purchased our Security Software Second Hand from Target."
           body={
             <img src="/img/safe.jpg" className="img-fluid" alt="Logo" />

@@ -21,7 +21,6 @@ function AllData() {
                   <th className="brand-table-th">Name</th>
                   <th className="brand-table-th">Email</th>
                   <th className="brand-table-th">Password</th>
-                  <th className="brand-table-th">Transaction</th>
                   <th className="brand-table-th">Balance</th>
 
                 </tr>

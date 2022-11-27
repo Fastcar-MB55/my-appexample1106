@@ -18,7 +18,7 @@ function NavBar() {
   const activeItem = {
     home: pageUrl === "#/" ? " active" : "",
     createAccount: pageUrl === "#/CreateAccount/" ? " active" : "",
-    login: pageUrl === "#/Login/" ? " active" : "",
+    /* login: pageUrl === "#/Login/" ? " active" : "",  Add back for capstone */
     deposit: pageUrl === "#/Deposit/" ? " active" : "",
     withdraw: pageUrl === "#/Withdraw/" ? " active" : "",
     allData: pageUrl === "#/AllData/" ? " active" : "",
@@ -28,15 +28,15 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="p-3">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand>
             <img
               alt=""
               src="/img/safe.jpg"
               width="45"
               height="45"
               className="d-inline-block align-top"
-            />{' '}
-                Bad Bank Of America
+            />
+                Bad Bank Of North America
           </Navbar.Brand>
         </Container>
       </div>

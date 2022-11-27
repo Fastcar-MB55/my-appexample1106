@@ -9,11 +9,11 @@ export const MenuItems =[
         title: 'Create Account',
         url: '#/CreateAccount/'
     },
-    {
+    /* {
         id:'login',
         title: 'Login',
         url: '#/Login/'
-    },
+    }, */
     {
         id:'deposit',
         title: 'Deposit',
