@@ -22,7 +22,7 @@ function Deposit() {
     }
 
     if (amt !== "" && amt !== "-" && !Number(amt)) {
-      setStatus("Error: Please introduce numbers only");
+      setStatus("Error: Please enter numbers only");
       setIsSuccess(false);
       return setValidTransaction(false);
     }
