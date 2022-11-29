@@ -18,17 +18,17 @@
     "react-number-format": "^4.7.3",
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject", 
-    "deploy": "npm run build && aws s3 sync build/s3://tony-lucebankingapplication --acl public-read" 
-  },
-  
+    "eject": "react-scripts eject"
+
+},
+
   "eslintConfig": {
     "extends": [
       "react-app",
