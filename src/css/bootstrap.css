@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8";card
 
 :root {
   --bs-blue: #0d6efd;
@@ -7308,6 +7308,7 @@ textarea.form-control-lg {
 
 .mb-3 {
   margin-bottom: 1rem !important;
+  margin-right: 5rem !important;
 }
 
 .mb-4 {
