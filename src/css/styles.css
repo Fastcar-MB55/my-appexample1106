@@ -46,23 +46,12 @@
 
 .brand-button:disabled { 
   cursor: not-allowed;
-  background-image:  linear-gradient(#fff, #fff) !important;
-  color: #FF0000!important;
-  border: 2px solid #FF0000;
 }
 
 .brand-button:hover {
   background-image:  linear-gradient(#fff, #fff) !important;
   color: #000080!important;
   border: 2px solid #000080;
-}
-
-
-.brand-button:disabled { 
-  cursor: not-allowed;
-  background-image:  linear-gradient(#fff, #fff) !important;
-  color: #FF0000!important;
-  border: 2px solid #FF0000;
 }
 
 .brand-centered {
